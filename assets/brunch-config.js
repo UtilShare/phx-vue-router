@@ -40,7 +40,8 @@ exports.config = {
   npm: {
     enabled: true,
     globals: {
-      Vue: 'vue/dist/vue.common.js'
+      Vue: 'vue/dist/vue.common.js',
+      VueRouter: 'vue-router'
     }
   }
 };
